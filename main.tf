@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = "infrastructure-pipelines-workshop"
 
     workspaces {
       name = "shrey-b-consul"
